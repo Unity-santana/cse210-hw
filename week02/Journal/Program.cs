@@ -1,14 +1,12 @@
-using System;
-
 /*
 Creativity Added:
 - Added extra prompts
 - Automatically saves the current date
 */
 
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Journal journal = new Journal();
         PromptGenerator promptGenerator = new PromptGenerator();

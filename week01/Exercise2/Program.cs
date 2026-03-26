@@ -1,5 +1,3 @@
-using System;
-
 Console.Write("Enter your grade percentage: ");
 string input = Console.ReadLine();
 int grade = int.Parse(input);

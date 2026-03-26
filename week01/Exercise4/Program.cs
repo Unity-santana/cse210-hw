@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         // Create a list to store numbers
         List<int> numbers = new List<int>();

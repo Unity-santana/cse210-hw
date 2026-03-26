@@ -1,5 +1,3 @@
-using System;
-
 public class Fraction
 {
     // Private attributes (Encapsulation!)

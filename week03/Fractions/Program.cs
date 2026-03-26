@@ -1,8 +1,6 @@
-using System;
-
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         // Using different constructors
         Fraction f1 = new Fraction();
