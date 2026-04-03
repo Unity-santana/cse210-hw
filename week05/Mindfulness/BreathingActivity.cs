@@ -1,0 +1,27 @@
+using System;
+
+public class BreathingActivity : Activity
+{
+    public BreathingActivity() 
+        : base("Breathing Activity",
+        "This activity will help you relax by guiding your breathing.") {}
+
+    public void Run()
+    {
+        StartMessage();
+
+        int time = GetDuration();
+        DateTime endTime = DateTime.Now.AddSeconds(time);
+
+        while (DateTime.Now < endTime)
+        {
+            Console.Write("\nBreathe in...");
+            ShowCountdown(4);
+
+            Console.Write("\nBreathe out...");
+            ShowCountdown(4);
+        }
+
+        EndMessage();
+    }
+}
