@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 public class ReflectionActivity : Activity
 {
     private List<string> prompts = new List<string>()
