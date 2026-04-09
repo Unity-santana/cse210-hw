@@ -34,3 +34,8 @@ class Program
         }
     }
 }
+// EXCEEDING REQUIREMENTS:
+// 1. Added spinner animation and countdown timer
+// 2. Used random prompts and questions
+// 3. Displayed total items entered in listing activity
+// 4. Structured code using clean inheritance and reusable methods
